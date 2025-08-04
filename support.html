@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Support - RentX</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/support.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- Header with Navigation -->
+    <header class="header">
+      <nav class="nav container">
+        <a href="index.html" class="nav__logo">
+          <div class="nav__logo-container">
+            <div class="nav__logo-icon">
+              <i class="ri-car-line"></i>
+            </div>
+            <span class="nav__logo-text">RentX</span>
+          </div>
+        </a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="index.html" class="nav__link">
+                <span class="nav__link-text">Home</span>
+                <div class="nav__link-indicator"></div>
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="index.html" class="nav__link">
+                <span class="nav__link-text">How It Works</span>
+                <div class="nav__link-indicator"></div>
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="index.html" class="nav__link">
+                <span class="nav__link-text">Fleet</span>
+                <div class="nav__link-indicator"></div>
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="support.ht" class="nav__link active">
+                <span class="nav__link-text">Support</span>
+                <div class="nav__link-indicator"></div>
+              </a>
+            </li>
+          </ul>
+
+          <div class="nav__actions">
+            <button class="nav__action-btn nav__action-btn--secondary">
+              <i class="ri-phone-line"></i>
+              <span>Call Us</span>
+            </button>
+            <button class="nav__action-btn nav__action-btn--primary">
+              <i class="ri-user-line"></i>
+              <span>Sign In</span>
+            </button>
+          </div>
+
+          <div class="nav__close" id="nav-close">
+            <i class="ri-close-line"></i>
+          </div>
+        </div>
+
+        <div class="nav__toggle" id="nav-toggle">
+          <div class="nav__toggle-lines">
+            <span class="nav__toggle-line"></span>
+            <span class="nav__toggle-line"></span>
+            <span class="nav__toggle-line"></span>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Support Hero Section -->
+    <section class="support-hero section">
+      <div class="container">
+        <div class="support-hero__content" data-aos="fade-up">
+          <div class="support-hero__badge">
+            <i class="ri-customer-service-2-line"></i>
+            <span>24/7 Support</span>
+          </div>
+          <h1 class="support-hero__title">
+            How can we <span class="text-gradient">help you?</span>
+          </h1>
+          <p class="support-hero__description">
+            Get instant support, submit feedback, or ask questions. Our team is
+            here to make your experience exceptional.
+          </p>
+
+          <!-- Quick Search -->
+          <div
+            class="support-hero__search"
+            data-aos="fade-up"
+            data-aos-delay="200"
+          >
+            <div class="search-bar">
+              <i class="ri-search-line search-bar__icon"></i>
+              <input
+                type="text"
+                placeholder="Search for help articles, FAQs..."
+                class="search-bar__input"
+                id="search-input"
+              />
+              <button class="search-bar__btn">
+                <i class="ri-arrow-right-line"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Quick Help Options -->
+    <section class="quick-help section">
+      <div class="container">
+        <div class="quick-help__grid">
+          <div class="help-card" data-aos="fade-up" data-aos-delay="100">
+            <div class="help-card__icon">
+              <i class="ri-question-answer-line"></i>
+            </div>
+            <h3 class="help-card__title">FAQ</h3>
+            <p class="help-card__description">
+              Find quick answers to common questions
+            </p>
+            <button class="help-card__btn">
+              <span>Browse FAQs</span>
+              <i class="ri-arrow-right-line"></i>
+            </button>
+          </div>
+
+          <div class="help-card" data-aos="fade-up" data-aos-delay="200">
+            <div class="help-card__icon">
+              <i class="ri-chat-3-line"></i>
+            </div>
+            <h3 class="help-card__title">Live Chat</h3>
+            <p class="help-card__description">
+              Chat with our support team instantly
+            </p>
+            <button class="help-card__btn">
+              <span>Start Chat</span>
+              <i class="ri-arrow-right-line"></i>
+            </button>
+          </div>
+
+          <div class="help-card" data-aos="fade-up" data-aos-delay="300">
+            <div class="help-card__icon">
+              <i class="ri-phone-line"></i>
+            </div>
+            <h3 class="help-card__title">Call Support</h3>
+            <p class="help-card__description">
+              Speak directly with our experts
+            </p>
+            <button class="help-card__btn">
+              <span>+1 (555) 123-4567</span>
+              <i class="ri-arrow-right-line"></i>
+            </button>
+          </div>
+
+          <div class="help-card" data-aos="fade-up" data-aos-delay="400">
+            <div class="help-card__icon">
+              <i class="ri-book-open-line"></i>
+            </div>
+            <h3 class="help-card__title">Help Center</h3>
+            <p class="help-card__description">
+              Browse detailed guides and tutorials
+            </p>
+            <button class="help-card__btn">
+              <span>View Guides</span>
+              <i class="ri-arrow-right-line"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Support Form Section -->
+    <section class="support-form section">
+      <div class="container">
+        <div class="support-form__container">
+          <div class="support-form__header" data-aos="fade-up">
+            <h2 class="section__title">Submit a Request</h2>
+            <p class="section__subtitle">
+              Can't find what you're looking for? Send us a message and we'll
+              get back to you within 24 hours.
+            </p>
+          </div>
+
+          <div class="support-form__content">
+            <div
+              class="support-form__tabs"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              <button class="tab-btn active" data-tab="query">
+                <i class="ri-question-line"></i>
+                <span>General Query</span>
+              </button>
+              <button class="tab-btn" data-tab="feedback">
+                <i class="ri-chat-heart-line"></i>
+                <span>Feedback</span>
+              </button>
+              <button class="tab-btn" data-tab="technical">
+                <i class="ri-tools-line"></i>
+                <span>Technical Issue</span>
+              </button>
+            </div>
+
+            <div
+              class="support-form__wrapper"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <form id="support-form" class="support-form__form">
+                <!-- Tab Content: General Query -->
+                <div class="tab-content active" id="query-tab">
+                  <div class="form-grid">
+                    <div class="form-group">
+                      <label class="form-label">
+                        <i class="ri-user-line"></i>
+                        Full Name
+                      </label>
+                      <input
+                        type="text"
+                        name="name"
+                        class="form-input"
+                        placeholder="Enter your full name"
+                        required
+                      />
+                    </div>
+
+                    <div class="form-group">
+                      <label class="form-label">
+                        <i class="ri-mail-line"></i>
+                        Email Address
+                      </label>
+                      <input
+                        type="email"
+                        name="email"
+                        class="form-input"
+                        placeholder="your.email@example.com"
+                        required
+                      />
+                    </div>
+
+                    <div class="form-group">
+                      <label class="form-label">
+                        <i class="ri-phone-line"></i>
+                        Phone Number
+                      </label>
+                      <input
+                        type="tel"
+                        name="phone"
+                        class="form-input"
+                        placeholder="+1 (555) 123-4567"
+                      />
+                    </div>
+
+                    <div class="form-group">
+                      <label class="form-label">
+                        <i class="ri-list-check"></i>
+                        Query Category
+                      </label>
+                      <select name="category" class="form-select" required>
+                        <option value="">Select a category</option>
+                        <option value="booking">Booking & Reservations</option>
+                        <option value="pricing">Pricing & Billing</option>
+                        <option value="vehicle">Vehicle Information</option>
+                        <option value="insurance">Insurance & Coverage</option>
+                        <option value="locations">Pickup & Drop-off</option>
+                        <option value="other">Other</option>
+                      </select>
+                    </div>
+
+                    <div class="form-group form-group--full">
+                      <label class="form-label">
+                        <i class="ri-text"></i>
+                        Subject
+                      </label>
+                      <input
+                        type="text"
+                        name="subject"
+                        class="form-input"
+                        placeholder="Brief description of your query"
+                        required
+                      />
+                    </div>
+
+                    <div class="form-group form-group--full">
+                      <label class="form-label">
+                        <i class="ri-message-3-line"></i>
+                        Message
+                      </label>
+                      <textarea
+                        name="message"
+                        class="form-textarea"
+                        placeholder="Please provide detailed information about your query..."
+                        rows="6"
+                        required
+                      ></textarea>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Tab Content: Feedback -->
+                <div class="tab-content" id="feedback-tab">
+                  <div class="form-grid">
+                    <div class="form-group">
+                      <label class="form-label">
+                        <i class="ri-user-line"></i>
+                        Full Name
+                      </label>
+                      <input
+                        type="text"
+                        name="feedback_name"
+                        class="form-input"
+                        placeholder="Enter your full name"
+                      />
+                    </div>
+
+                    <div class="form-group">
+                      <label class="form-label">
+                        <i class="ri-mail-line"></i>
+                        Email Address
+                      </label>
+                      <input
+                        type="email"
+                        name="feedback_email"
+                        class="form-input"
+                        placeholder="your.email@example.com"
+                        required
+                      />
+                    </div>
+
+                    <div class="form-group">
+                      <label class="form-label">
+                        <i class="ri-star-line"></i>
+                        Overall Rating
+                      </label>
+                      <div class="rating-input">
+                        <input
+                          type="radio"
+                          name="rating"
+                          value="5"
+                          id="star5"
+                        />
+                        <label for="star5"><i class="ri-star-fill"></i></label>
+                        <input
+                          type="radio"
+                          name="rating"
+                          value="4"
+                          id="star4"
+                        />
+                        <label for="star4"><i class="ri-star-fill"></i></label>
+                        <input
+                          type="radio"
+                          name="rating"
+                          value="3"
+                          id="star3"
+                        />
+                        <label for="star3"><i class="ri-star-fill"></i></label>
+                        <input
+                          type="radio"
+                          name="rating"
+                          value="2"
+                          id="star2"
+                        />
+                        <label for="star2"><i class="ri-star-fill"></i></label>
+                        <input
+                          type="radio"
+                          name="rating"
+                          value="1"
+                          id="star1"
+                        />
+                        <label for="star1"><i class="ri-star-fill"></i></label>
+                      </div>
+                    </div>
+
+                    <div class="form-group">
+                      <label class="form-label">
+                        <i class="ri-bookmark-line"></i>
+                        Feedback Type
+                      </label>
+                      <select name="feedback_type" class="form-select" required>
+                        <option value="">Select feedback type</option>
+                        <option value="service">Service Quality</option>
+                        <option value="website">Website Experience</option>
+                        <option value="vehicle">Vehicle Quality</option>
+                        <option value="staff">Staff Behavior</option>
+                        <option value="suggestion">Suggestion</option>
+                        <option value="complaint">Complaint</option>
+                      </select>
+                    </div>
+
+                    <div class="form-group form-group--full">
+                      <label class="form-label">
+                        <i class="ri-message-3-line"></i>
+                        Your Feedback
+                      </label>
+                      <textarea
+                        name="feedback_message"
+                        class="form-textarea"
+                        placeholder="Share your experience, suggestions, or concerns..."
+                        rows="6"
+                        required
+                      ></textarea>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Tab Content: Technical Issue -->
+                <div class="tab-content" id="technical-tab">
+                  <div class="form-grid">
+                    <div class="form-group">
+                      <label class="form-label">
+                        <i class="ri-user-line"></i>
+                        Full Name
+                      </label>
+                      <input
+                        type="text"
+                        name="tech_name"
+                        class="form-input"
+                        placeholder="Enter your full name"
+                        required
+                      />
+                    </div>
+
+                    <div class="form-group">
+                      <label class="form-label">
+                        <i class="ri-mail-line"></i>
+                        Email Address
+                      </label>
+                      <input
+                        type="email"
+                        name="tech_email"
+                        class="form-input"
+                        placeholder="your.email@example.com"
+                        required
+                      />
+                    </div>
+
+                    <div class="form-group">
+                      <label class="form-label">
+                        <i class="ri-smartphone-line"></i>
+                        Device/Browser
+                      </label>
+                      <input
+                        type="text"
+                        name="device"
+                        class="form-input"
+                        placeholder="e.g., Chrome on Windows, Safari on iPhone"
+                      />
+                    </div>
+
+                    <div class="form-group">
+                      <label class="form-label">
+                        <i class="ri-error-warning-line"></i>
+                        Issue Priority
+                      </label>
+                      <select name="priority" class="form-select" required>
+                        <option value="">Select priority</option>
+                        <option value="low">Low - Minor inconvenience</option>
+                        <option value="medium">
+                          Medium - Affects functionality
+                        </option>
+                        <option value="high">
+                          High - Blocks important tasks
+                        </option>
+                        <option value="critical">
+                          Critical - Service unavailable
+                        </option>
+                      </select>
+                    </div>
+
+                    <div class="form-group form-group--full">
+                      <label class="form-label">
+                        <i class="ri-bug-line"></i>
+                        Issue Description
+                      </label>
+                      <textarea
+                        name="tech_description"
+                        class="form-textarea"
+                        placeholder="Please describe the technical issue in detail, including steps to reproduce..."
+                        rows="6"
+                        required
+                      ></textarea>
+                    </div>
+
+                    <div class="form-group form-group--full">
+                      <label class="form-label">
+                        <i class="ri-attachment-line"></i>
+                        Attachments (Optional)
+                      </label>
+                      <div class="file-upload">
+                        <input
+                          type="file"
+                          name="attachments"
+                          class="file-input"
+                          multiple
+                          accept="image/*,.pdf,.doc,.docx"
+                        />
+                        <div class="file-upload__content">
+                          <i class="ri-upload-cloud-line"></i>
+                          <span>Drop files here or click to browse</span>
+                          <small>PNG, JPG, PDF, DOC (Max 10MB each)</small>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Form Actions -->
+                <div class="form-actions">
+                  <button type="submit" class="btn btn--primary">
+                    <i class="ri-send-plane-line"></i>
+                    <span>Send Message</span>
+                  </button>
+                  <button type="reset" class="btn btn--secondary">
+                    <i class="ri-refresh-line"></i>
+                    <span>Reset Form</span>
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq section">
+      <div class="container">
+        <div class="faq__header" data-aos="fade-up">
+          <h2 class="section__title">Frequently Asked Questions</h2>
+          <p class="section__subtitle">Quick answers to common questions</p>
+        </div>
+
+        <div class="faq__content">
+          <div class="faq__item" data-aos="fade-up" data-aos-delay="100">
+            <button class="faq__question">
+              <span>How do I book a car?</span>
+              <i class="ri-add-line faq__icon"></i>
+            </button>
+            <div class="faq__answer">
+              <p>
+                You can book a car through our website by selecting your desired
+                vehicle, choosing pickup/return dates, and completing the
+                booking form. Payment is processed securely online.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq__item" data-aos="fade-up" data-aos-delay="200">
+            <button class="faq__question">
+              <span>What documents do I need to rent a car?</span>
+              <i class="ri-add-line faq__icon"></i>
+            </button>
+            <div class="faq__answer">
+              <p>
+                You'll need a valid driver's license, credit card, and
+                government-issued ID. International customers may need an
+                International Driving Permit.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq__item" data-aos="fade-up" data-aos-delay="300">
+            <button class="faq__question">
+              <span>Can I cancel or modify my booking?</span>
+              <i class="ri-add-line faq__icon"></i>
+            </button>
+            <div class="faq__answer">
+              <p>
+                Yes, you can cancel or modify your booking up to 24 hours before
+                pickup without any fees. Changes within 24 hours may incur
+                charges.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq__item" data-aos="fade-up" data-aos-delay="400">
+            <button class="faq__question">
+              <span>What's included in the rental price?</span>
+              <i class="ri-add-line faq__icon"></i>
+            </button>
+            <div class="faq__answer">
+              <p>
+                Basic rental includes the vehicle, standard insurance, and 24/7
+                roadside assistance. Additional coverage, GPS, and other extras
+                are available for an additional fee.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq__item" data-aos="fade-up" data-aos-delay="500">
+            <button class="faq__question">
+              <span>Do you offer 24/7 customer support?</span>
+              <i class="ri-add-line faq__icon"></i>
+            </button>
+            <div class="faq__answer">
+              <p>
+                Yes, our customer support team is available 24/7 through phone,
+                chat, and email to assist you with any questions or emergencies.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__container grid">
+          <div class="footer__content">
+            <a href="#" class="footer__logo">RentX</a>
+            <p class="footer__description">
+              Your trusted partner for premium car rentals. Experience the road
+              like never before.
+            </p>
+            <div class="footer__social">
+              <a href="#" class="footer__social-link">
+                <i class="ri-twitter-fill"></i>
+              </a>
+              <a href="#" class="footer__social-link">
+                <i class="ri-facebook-fill"></i>
+              </a>
+              <a href="#" class="footer__social-link">
+                <i class="ri-instagram-line"></i>
+              </a>
+              <a href="#" class="footer__social-link">
+                <i class="ri-linkedin-fill"></i>
+              </a>
+            </div>
+          </div>
+          <div class="footer__content">
+            <h4 class="footer__title">Quick Links</h4>
+            <ul class="footer__list">
+              <li><a href="index.html" class="footer__link">Home</a></li>
+              <li><a href="index.html#cars" class="footer__link">Fleet</a></li>
+              <li><a href="support.html" class="footer__link">Support</a></li>
+              <li><a href="#" class="footer__link">About Us</a></li>
+            </ul>
+          </div>
+          <div class="footer__content">
+            <h4 class="footer__title">Support</h4>
+            <ul class="footer__list">
+              <li><a href="#" class="footer__link">Help Center</a></li>
+              <li><a href="#" class="footer__link">Terms of Service</a></li>
+              <li><a href="#" class="footer__link">Privacy Policy</a></li>
+              <li>
+                <a href="support.html" class="footer__link">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__content">
+            <h4 class="footer__title">Contact Info</h4>
+            <div class="footer__contact">
+              <p>📧 support@rentx.com</p>
+              <p>📞 +1 (555) 123-4567</p>
+              <p>📍 123 Main St, City, State 12345</p>
+            </div>
+          </div>
+        </div>
+        <div class="footer__bottom">
+          <p>&copy; 2025 RentX. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/navigation.js"></script>
+    <script src="js/support.js"></script>
+  </body>
+</html>

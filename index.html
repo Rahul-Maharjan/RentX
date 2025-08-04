@@ -1,0 +1,1039 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RentX - Modern Car Rentals</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/animation.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- Header with Navigation -->
+    <header class="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo">
+          <div class="nav__logo-container">
+            <div class="nav__logo-icon">
+              <i class="ri-car-line"></i>
+            </div>
+            <span class="nav__logo-text">RentX</span>
+          </div>
+        </a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active" data-section="home">
+                <span class="nav__link-text">Home</span>
+                <div class="nav__link-indicator"></div>
+              </a>
+            </li>
+            <li class="nav__item">
+              <a
+                href="#how-it-works"
+                class="nav__link"
+                data-section="how-it-works"
+              >
+                <span class="nav__link-text">How It Works</span>
+                <div class="nav__link-indicator"></div>
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#cars" class="nav__link" data-section="cars">
+                <span class="nav__link-text">Fleet</span>
+                <div class="nav__link-indicator"></div>
+              </a>
+            </li>
+            <li class="nav__item">
+              <a
+                href="#testimonials"
+                class="nav__link"
+                data-section="testimonials"
+              >
+                <span class="nav__link-text">Reviews</span>
+                <div class="nav__link-indicator"></div>
+              </a>
+            </li>
+          </ul>
+
+          <div class="nav__actions">
+            <a
+              href="support.html"
+              class="nav__action-btn nav__action-btn--secondary"
+            >
+              <i class="ri-phone-line"></i>
+              <span>Support</span>
+            </a>
+            <button class="nav__action-btn nav__action-btn--primary">
+              <i class="ri-user-line"></i>
+              <span>Sign In</span>
+            </button>
+          </div>
+
+          <div class="nav__close" id="nav-close">
+            <i class="ri-close-line"></i>
+          </div>
+        </div>
+
+        <div class="nav__toggle" id="nav-toggle">
+          <div class="nav__toggle-lines">
+            <span class="nav__toggle-line"></span>
+            <span class="nav__toggle-line"></span>
+            <span class="nav__toggle-line"></span>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero section" id="home">
+      <div class="hero__container container">
+        <div class="hero__content">
+          <div class="hero__badge" data-aos="fade-up">
+            <span class="hero__badge-text">Premium Car Rental</span>
+          </div>
+          <h1 class="hero__title" data-aos="fade-up" data-aos-delay="100">
+            Experience the
+            <span class="hero__title-accent">future</span>
+            of mobility
+          </h1>
+          <p class="hero__description" data-aos="fade-up" data-aos-delay="200">
+            Premium vehicles at your fingertips. Book instantly, drive
+            confidently, explore endlessly.
+          </p>
+          <div class="hero__actions" data-aos="fade-up" data-aos-delay="300">
+            <a href="#cars" class="button button--primary button--large">
+              Explore Fleet
+              <i class="ri-arrow-right-line"></i>
+            </a>
+            <button class="button button--ghost">
+              <i class="ri-play-circle-line"></i>
+              Watch Demo
+            </button>
+          </div>
+          <div class="hero__stats" data-aos="fade-up" data-aos-delay="400">
+            <div class="hero__stat">
+              <span class="hero__stat-number">10K+</span>
+              <span class="hero__stat-label">Happy Customers</span>
+            </div>
+            <div class="hero__stat">
+              <span class="hero__stat-number">500+</span>
+              <span class="hero__stat-label">Premium Cars</span>
+            </div>
+            <div class="hero__stat">
+              <span class="hero__stat-number">50+</span>
+              <span class="hero__stat-label">Cities</span>
+            </div>
+          </div>
+        </div>
+        <div class="hero__visual" data-aos="fade-left" data-aos-delay="500">
+          <div class="hero__image-container">
+            <div
+              class="hero__floating-card hero__floating-card--1"
+              data-aos="fade-up"
+              data-aos-delay="700"
+            >
+              <div class="hero__card-icon">
+                <i class="ri-shield-check-line"></i>
+              </div>
+              <div class="hero__card-text">
+                <span class="hero__card-title">Fully Insured</span>
+                <span class="hero__card-subtitle">100% Coverage</span>
+              </div>
+            </div>
+            <div
+              class="hero__floating-card hero__floating-card--2"
+              data-aos="fade-up"
+              data-aos-delay="800"
+            >
+              <div class="hero__card-icon">
+                <i class="ri-time-line"></i>
+              </div>
+              <div class="hero__card-text">
+                <span class="hero__card-title">24/7 Support</span>
+                <span class="hero__card-subtitle">Always Available</span>
+              </div>
+            </div>
+            <img
+              src="images/hero-car.png"
+              alt="Premium car"
+              class="hero__img"
+            />
+            <div class="hero__bg-shape"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section class="steps section" id="how-it-works">
+      <div class="container">
+        <h2 class="section__title" data-aos="fade-up">How It Works</h2>
+        <div class="steps__container grid">
+          <div class="step__item" data-aos="fade-up" data-aos-delay="100">
+            <div class="step__icon">
+              <svg
+                width="48"
+                height="48"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M21 16V8C21 6.89543 20.1046 6 19 6H5C3.89543 6 3 6.89543 3 8V16M21 16C21 17.1046 20.1046 18 19 18H5C3.89543 18 3 17.1046 3 16M21 16V14M3 16V14"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </div>
+            <h3 class="step__title">Choose Your Car</h3>
+            <p class="step__description">
+              Browse our extensive collection of premium vehicles and select the
+              perfect car for your needs.
+            </p>
+          </div>
+          <div class="step__item" data-aos="fade-up" data-aos-delay="200">
+            <div class="step__icon">
+              <svg
+                width="48"
+                height="48"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M8 7V3M16 7V3M7 11H17M5 21H19C20.1046 21 21 20.1046 21 19V7C21 5.89543 20.1046 5 19 5H5C3.89543 5 3 5.89543 3 7V19C3 20.1046 3.89543 21 5 21Z"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </div>
+            <h3 class="step__title">Book Online</h3>
+            <p class="step__description">
+              Select your dates, location, and complete the booking process with
+              our secure online platform.
+            </p>
+          </div>
+          <div class="step__item" data-aos="fade-up" data-aos-delay="300">
+            <div class="step__icon">
+              <svg
+                width="48"
+                height="48"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M15 7L21 12L15 17M3 12H21"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </div>
+            <h3 class="step__title">Pick Up & Go</h3>
+            <p class="step__description">
+              Collect your car from our convenient locations and start your
+              journey with confidence.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Available Cars Section -->
+    <section class="cars section" id="cars">
+      <div class="container">
+        <div class="cars__header" data-aos="fade-up">
+          <div class="cars__title-wrapper">
+            <span class="cars__subtitle">Our Fleet</span>
+            <h2 class="section__title">Premium Vehicles</h2>
+            <p class="cars__description">
+              Discover our carefully curated collection of luxury and
+              performance vehicles
+            </p>
+          </div>
+          <div class="cars__filters">
+            <button class="filter__btn active" data-filter="all">
+              All Cars
+            </button>
+            <button class="filter__btn" data-filter="luxury">Luxury</button>
+            <button class="filter__btn" data-filter="electric">Electric</button>
+            <button class="filter__btn" data-filter="suv">SUV</button>
+          </div>
+        </div>
+        <div class="cars__grid">
+          <article
+            class="car__card"
+            data-aos="fade-up"
+            data-aos-delay="100"
+            data-category="electric"
+          >
+            <div class="car__image-wrapper">
+              <img
+                src="./images/tesla.png"
+                alt="Tesla Model S"
+                class="car__image"
+              />
+              <div class="car__badge car__badge--premium">Premium</div>
+              <div class="car__overlay">
+                <button
+                  class="car__btn car__btn--view"
+                  data-car="tesla-model-s"
+                >
+                  <i class="ri-eye-line"></i>
+                  View Details
+                </button>
+              </div>
+            </div>
+            <div class="car__content">
+              <div class="car__header">
+                <h3 class="car__title">Tesla Model S</h3>
+                <div class="car__rating">
+                  <i class="ri-star-fill"></i>
+                  <span>4.9</span>
+                </div>
+              </div>
+              <p class="car__description">
+                Electric luxury sedan with autopilot features
+              </p>
+              <div class="car__specs">
+                <div class="car__spec">
+                  <i class="ri-user-line"></i>
+                  <span>5 Seats</span>
+                </div>
+                <div class="car__spec">
+                  <i class="ri-flashlight-line"></i>
+                  <span>Electric</span>
+                </div>
+                <div class="car__spec">
+                  <i class="ri-settings-3-line"></i>
+                  <span>Auto</span>
+                </div>
+              </div>
+              <div class="car__footer">
+                <div class="car__price">
+                  <span class="car__price-amount">$99</span>
+                  <span class="car__price-period">/day</span>
+                </div>
+                <button
+                  class="button button--primary button--small"
+                  data-car="tesla-model-s"
+                >
+                  Book Now
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <article
+            class="car__card"
+            data-aos="fade-up"
+            data-aos-delay="200"
+            data-category="suv"
+          >
+            <div class="car__image-wrapper">
+              <img src="./images/bmw.png" alt="BMW X5" class="car__image" />
+              <div class="car__badge car__badge--popular">Popular</div>
+              <div class="car__overlay">
+                <button class="car__btn car__btn--view" data-car="bmw-x5">
+                  <i class="ri-eye-line"></i>
+                  View Details
+                </button>
+              </div>
+            </div>
+            <div class="car__content">
+              <div class="car__header">
+                <h3 class="car__title">BMW X5</h3>
+                <div class="car__rating">
+                  <i class="ri-star-fill"></i>
+                  <span>4.8</span>
+                </div>
+              </div>
+              <p class="car__description">
+                Spacious luxury SUV perfect for families
+              </p>
+              <div class="car__specs">
+                <div class="car__spec">
+                  <i class="ri-user-line"></i>
+                  <span>7 Seats</span>
+                </div>
+                <div class="car__spec">
+                  <i class="ri-gas-station-line"></i>
+                  <span>Gasoline</span>
+                </div>
+                <div class="car__spec">
+                  <i class="ri-settings-3-line"></i>
+                  <span>Auto</span>
+                </div>
+              </div>
+              <div class="car__footer">
+                <div class="car__price">
+                  <span class="car__price-amount">$79</span>
+                  <span class="car__price-period">/day</span>
+                </div>
+                <button
+                  class="button button--primary button--small"
+                  data-car="bmw-x5"
+                >
+                  Book Now
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <article
+            class="car__card"
+            data-aos="fade-up"
+            data-aos-delay="300"
+            data-category="luxury"
+          >
+            <div class="car__image-wrapper">
+              <img src="./images/audi.png" alt="Audi A4" class="car__image" />
+              <div class="car__overlay">
+                <button class="car__btn car__btn--view" data-car="audi-a4">
+                  <i class="ri-eye-line"></i>
+                  View Details
+                </button>
+              </div>
+            </div>
+            <div class="car__content">
+              <div class="car__header">
+                <h3 class="car__title">Audi A4</h3>
+                <div class="car__rating">
+                  <i class="ri-star-fill"></i>
+                  <span>4.7</span>
+                </div>
+              </div>
+              <p class="car__description">
+                Elegant sedan with cutting-edge technology
+              </p>
+              <div class="car__specs">
+                <div class="car__spec">
+                  <i class="ri-user-line"></i>
+                  <span>5 Seats</span>
+                </div>
+                <div class="car__spec">
+                  <i class="ri-gas-station-line"></i>
+                  <span>Gasoline</span>
+                </div>
+                <div class="car__spec">
+                  <i class="ri-settings-3-line"></i>
+                  <span>Auto</span>
+                </div>
+              </div>
+              <div class="car__footer">
+                <div class="car__price">
+                  <span class="car__price-amount">$65</span>
+                  <span class="car__price-period">/day</span>
+                </div>
+                <button
+                  class="button button--primary button--small"
+                  data-car="audi-a4"
+                >
+                  Book Now
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <article
+            class="car__card"
+            data-aos="fade-up"
+            data-aos-delay="400"
+            data-category="luxury"
+          >
+            <div class="car__image-wrapper">
+              <img
+                src="./images/farrari.png"
+                alt="Ferrari 488"
+                class="car__image"
+              />
+              <div class="car__badge car__badge--luxury">Luxury</div>
+              <div class="car__overlay">
+                <button class="car__btn car__btn--view" data-car="ferrari-488">
+                  <i class="ri-eye-line"></i>
+                  View Details
+                </button>
+              </div>
+            </div>
+            <div class="car__content">
+              <div class="car__header">
+                <h3 class="car__title">Ferrari 488</h3>
+                <div class="car__rating">
+                  <i class="ri-star-fill"></i>
+                  <span>4.9</span>
+                </div>
+              </div>
+              <p class="car__description">
+                High-performance sports car for thrill seekers
+              </p>
+              <div class="car__specs">
+                <div class="car__spec">
+                  <i class="ri-user-line"></i>
+                  <span>2 Seats</span>
+                </div>
+                <div class="car__spec">
+                  <i class="ri-gas-station-line"></i>
+                  <span>Gasoline</span>
+                </div>
+                <div class="car__spec">
+                  <i class="ri-hand-coin-line"></i>
+                  <span>Manual</span>
+                </div>
+              </div>
+              <div class="car__footer">
+                <div class="car__price">
+                  <span class="car__price-amount">$299</span>
+                  <span class="car__price-period">/day</span>
+                </div>
+                <button
+                  class="button button--primary button--small"
+                  data-car="ferrari-488"
+                >
+                  Book Now
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <article
+            class="car__card"
+            data-aos="fade-up"
+            data-aos-delay="500"
+            data-category="luxury"
+          >
+            <div class="car__image-wrapper">
+              <img
+                src="./images/marcedise.webp"
+                alt="Mercedes C-Class"
+                class="car__image"
+              />
+              <div class="car__overlay">
+                <button
+                  class="car__btn car__btn--view"
+                  data-car="mercedes-c-class"
+                >
+                  <i class="ri-eye-line"></i>
+                  View Details
+                </button>
+              </div>
+            </div>
+            <div class="car__content">
+              <div class="car__header">
+                <h3 class="car__title">Mercedes C-Class</h3>
+                <div class="car__rating">
+                  <i class="ri-star-fill"></i>
+                  <span>4.8</span>
+                </div>
+              </div>
+              <p class="car__description">
+                Premium comfort with advanced safety features
+              </p>
+              <div class="car__specs">
+                <div class="car__spec">
+                  <i class="ri-user-line"></i>
+                  <span>5 Seats</span>
+                </div>
+                <div class="car__spec">
+                  <i class="ri-gas-station-line"></i>
+                  <span>Gasoline</span>
+                </div>
+                <div class="car__spec">
+                  <i class="ri-settings-3-line"></i>
+                  <span>Auto</span>
+                </div>
+              </div>
+              <div class="car__footer">
+                <div class="car__price">
+                  <span class="car__price-amount">$85</span>
+                  <span class="car__price-period">/day</span>
+                </div>
+                <button
+                  class="button button--primary button--small"
+                  data-car="mercedes-c-class"
+                >
+                  Book Now
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <article
+            class="car__card"
+            data-aos="fade-up"
+            data-aos-delay="600"
+            data-category="electric"
+          >
+            <div class="car__image-wrapper">
+              <img
+                src="./images/toyota.png"
+                alt="Toyota Camry"
+                class="car__image"
+              />
+              <div class="car__badge car__badge--eco">Eco</div>
+              <div class="car__overlay">
+                <button class="car__btn car__btn--view" data-car="toyota-camry">
+                  <i class="ri-eye-line"></i>
+                  View Details
+                </button>
+              </div>
+            </div>
+            <div class="car__content">
+              <div class="car__header">
+                <h3 class="car__title">Toyota Camry</h3>
+                <div class="car__rating">
+                  <i class="ri-star-fill"></i>
+                  <span>4.6</span>
+                </div>
+              </div>
+              <p class="car__description">
+                Reliable and fuel-efficient for city driving
+              </p>
+              <div class="car__specs">
+                <div class="car__spec">
+                  <i class="ri-user-line"></i>
+                  <span>5 Seats</span>
+                </div>
+                <div class="car__spec">
+                  <i class="ri-leaf-line"></i>
+                  <span>Hybrid</span>
+                </div>
+                <div class="car__spec">
+                  <i class="ri-settings-3-line"></i>
+                  <span>Auto</span>
+                </div>
+              </div>
+              <div class="car__footer">
+                <div class="car__price">
+                  <span class="car__price-amount">$45</span>
+                  <span class="car__price-period">/day</span>
+                </div>
+                <button
+                  class="button button--primary button--small"
+                  data-car="toyota-camry"
+                >
+                  Book Now
+                </button>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials section" id="testimonials">
+      <div class="container">
+        <div class="testimonials__header" data-aos="fade-up">
+          <h2 class="section__title">Trusted by thousands</h2>
+          <p class="section__subtitle">
+            See what our customers have to say about their experience
+          </p>
+        </div>
+
+        <div class="testimonials__container">
+          <div class="testimonials__wrapper">
+            <div
+              class="testimonial__card active"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              <div class="testimonial__quote">
+                <i class="ri-double-quotes-l"></i>
+              </div>
+              <p class="testimonial__text">
+                Amazing service! The car was in perfect condition and the
+                booking process was seamless. Will definitely use RentX again
+                for my future trips.
+              </p>
+              <div class="testimonial__author">
+                <div class="testimonial__avatar">
+                  <img
+                    src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=80&h=80&fit=crop&crop=face&auto=format"
+                    alt="John Smith"
+                  />
+                </div>
+                <div class="testimonial__info">
+                  <h4 class="testimonial__name">John Smith</h4>
+                  <span class="testimonial__role">Business Executive</span>
+                  <div class="testimonial__rating">
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="testimonial__card"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <div class="testimonial__quote">
+                <i class="ri-double-quotes-l"></i>
+              </div>
+              <p class="testimonial__text">
+                Excellent variety of cars and competitive prices. The Tesla
+                Model S was a dream to drive. Customer support was very helpful
+                throughout the rental period.
+              </p>
+              <div class="testimonial__author">
+                <div class="testimonial__avatar">
+                  <img
+                    src="https://images.unsplash.com/photo-1494790108755-2616b612b786?w=80&h=80&fit=crop&crop=face&auto=format"
+                    alt="Sarah Johnson"
+                  />
+                </div>
+                <div class="testimonial__info">
+                  <h4 class="testimonial__name">Sarah Johnson</h4>
+                  <span class="testimonial__role">Tech Entrepreneur</span>
+                  <div class="testimonial__rating">
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="testimonial__card"
+              data-aos="fade-up"
+              data-aos-delay="300"
+            >
+              <div class="testimonial__quote">
+                <i class="ri-double-quotes-l"></i>
+              </div>
+              <p class="testimonial__text">
+                Perfect for our family vacation! The BMW X5 had plenty of space
+                and comfort for our road trip. Highly recommend RentX for family
+                adventures.
+              </p>
+              <div class="testimonial__author">
+                <div class="testimonial__avatar">
+                  <img
+                    src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=80&h=80&fit=crop&crop=face&auto=format"
+                    alt="Mike Davis"
+                  />
+                </div>
+                <div class="testimonial__info">
+                  <h4 class="testimonial__name">Mike Davis</h4>
+                  <span class="testimonial__role">Family Traveler</span>
+                  <div class="testimonial__rating">
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonials__navigation">
+            <div class="testimonials__controls">
+              <button
+                class="testimonial__btn active"
+                data-slide="0"
+                aria-label="View testimonial 1"
+              ></button>
+              <button
+                class="testimonial__btn"
+                data-slide="1"
+                aria-label="View testimonial 2"
+              ></button>
+              <button
+                class="testimonial__btn"
+                data-slide="2"
+                aria-label="View testimonial 3"
+              ></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta section">
+      <div class="container">
+        <div class="cta__container" data-aos="fade-up">
+          <h2 class="cta__title">Ready to Start Your Journey?</h2>
+          <p class="cta__description">
+            Book your perfect car today and experience the freedom of the road
+          </p>
+          <a href="#cars" class="button button--primary button--large"
+            >Get Started Now</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__container grid">
+          <div class="footer__content">
+            <a href="#" class="footer__logo">RentX</a>
+            <p class="footer__description">
+              Your trusted partner for premium car rentals. Experience the road
+              like never before.
+            </p>
+            <div class="footer__social">
+              <a href="#" class="footer__social-link">
+                <svg
+                  width="20"
+                  height="20"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                >
+                  <path
+                    d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"
+                  />
+                </svg>
+              </a>
+              <a href="#" class="footer__social-link">
+                <svg
+                  width="20"
+                  height="20"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                >
+                  <path
+                    d="M22.46 6c-.77.35-1.6.58-2.46.69.88-.53 1.56-1.37 1.88-2.38-.83.5-1.75.85-2.72 1.05C18.37 4.5 17.26 4 16 4c-2.35 0-4.27 1.92-4.27 4.29 0 .34.04.67.11.98C8.28 9.09 5.11 7.38 3 4.79c-.37.63-.58 1.37-.58 2.15 0 1.49.75 2.81 1.91 3.56-.71 0-1.37-.2-1.95-.5v.03c0 2.08 1.48 3.82 3.44 4.21a4.22 4.22 0 0 1-1.93.07 4.28 4.28 0 0 0 4 2.98 8.521 8.521 0 0 1-5.33 1.84c-.34 0-.68-.02-1.02-.06C3.44 20.29 5.7 21 8.12 21 16 21 20.33 14.46 20.33 8.79c0-.19 0-.37-.01-.56.84-.6 1.56-1.36 2.14-2.23z"
+                  />
+                </svg>
+              </a>
+              <a href="#" class="footer__social-link">
+                <svg
+                  width="20"
+                  height="20"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                >
+                  <path
+                    d="M12.017 0C5.396 0 .029 5.367.029 11.987c0 5.079 3.158 9.417 7.618 11.174-.105-.949-.199-2.403.041-3.439.219-.937 1.406-5.957 1.406-5.957s-.359-.72-.359-1.781c0-1.663.967-2.911 2.168-2.911 1.024 0 1.518.769 1.518 1.688 0 1.029-.653 2.567-.992 3.992-.285 1.193.6 2.165 1.775 2.165 2.128 0 3.768-2.245 3.768-5.487 0-2.861-2.063-4.869-5.008-4.869-3.41 0-5.409 2.562-5.409 5.199 0 1.033.394 2.143.889 2.747.099.12.112.225.085.345-.09.375-.293 1.199-.334 1.363-.053.225-.172.271-.402.165-1.495-.69-2.433-2.878-2.433-4.646 0-3.776 2.748-7.252 7.92-7.252 4.158 0 7.392 2.967 7.392 6.923 0 4.135-2.607 7.462-6.233 7.462-1.214 0-2.357-.629-2.758-1.378l-.749 2.848c-.269 1.045-1.004 2.352-1.498 3.146 1.123.345 2.306.535 3.55.535 6.624 0 11.99-5.367 11.99-11.987C24.007 5.367 18.641.001 12.017.001z"
+                  />
+                </svg>
+              </a>
+              <a href="#" class="footer__social-link">
+                <svg
+                  width="20"
+                  height="20"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                >
+                  <path
+                    d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
+          <div class="footer__content">
+            <h4 class="footer__title">Quick Links</h4>
+            <ul class="footer__list">
+              <li><a href="#home" class="footer__link">Home</a></li>
+              <li>
+                <a href="#how-it-works" class="footer__link">How It Works</a>
+              </li>
+              <li><a href="#cars" class="footer__link">Available Cars</a></li>
+              <li>
+                <a href="#testimonials" class="footer__link">Testimonials</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__content">
+            <h4 class="footer__title">Support</h4>
+            <ul class="footer__list">
+              <li><a href="#" class="footer__link">Help Center</a></li>
+              <li><a href="#" class="footer__link">Terms of Service</a></li>
+              <li><a href="#" class="footer__link">Privacy Policy</a></li>
+              <li><a href="#" class="footer__link">Contact Us</a></li>
+            </ul>
+          </div>
+          <div class="footer__content">
+            <h4 class="footer__title">Contact Info</h4>
+            <div class="footer__contact">
+              <p>📧 info@rentx.com</p>
+              <p>📞 +1 (555) 123-4567</p>
+              <p>📍 123 Main St, City, State 12345</p>
+            </div>
+          </div>
+        </div>
+        <div class="footer__bottom">
+          <p>&copy; 2025 RentX. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Car Details Modal -->
+    <div class="modal" id="car-modal">
+      <div class="modal__overlay" id="modal-overlay"></div>
+      <div class="modal__container">
+        <div class="modal__content">
+          <button class="modal__close" id="modal-close">
+            <i class="ri-close-line"></i>
+          </button>
+
+          <div class="modal__header">
+            <div class="modal__image-container">
+              <img src="" alt="" id="modal-car-image" class="modal__image" />
+              <div class="modal__image-overlay">
+                <button class="modal__gallery-btn">
+                  <i class="ri-gallery-line"></i>
+                  View Gallery
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="modal__body">
+            <div class="modal__info">
+              <div class="modal__title-section">
+                <h3 id="modal-car-title" class="modal__title">Car Title</h3>
+                <div class="modal__rating">
+                  <div class="modal__stars">
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                  </div>
+                  <span class="modal__rating-text">4.8 (245 reviews)</span>
+                </div>
+              </div>
+
+              <p id="modal-car-description" class="modal__description">
+                Car description goes here with detailed information about the
+                vehicle.
+              </p>
+
+              <div class="modal__specs-grid" id="modal-car-features">
+                <!-- Features will be populated dynamically -->
+              </div>
+
+              <div class="modal__highlights">
+                <h4 class="modal__highlights-title">Key Features</h4>
+                <ul class="modal__highlights-list">
+                  <li><i class="ri-check-line"></i> GPS Navigation System</li>
+                  <li><i class="ri-check-line"></i> Bluetooth Connectivity</li>
+                  <li><i class="ri-check-line"></i> Premium Sound System</li>
+                  <li><i class="ri-check-line"></i> Climate Control</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="modal__booking">
+              <div class="modal__price-card">
+                <div class="modal__price-header">
+                  <span class="modal__price-amount" id="modal-car-price"
+                    >$99</span
+                  >
+                  <span class="modal__price-period">/day</span>
+                </div>
+                <div class="modal__price-note">*Excluding taxes and fees</div>
+              </div>
+
+              <div class="modal__form-container">
+                <h4 class="modal__form-title">Book This Vehicle</h4>
+                <form id="booking-form" class="modal__form">
+                  <div class="form__row">
+                    <div class="form__group">
+                      <label for="pickup-date" class="form__label"
+                        >Pick-up Date</label
+                      >
+                      <input
+                        type="date"
+                        id="pickup-date"
+                        class="form__input"
+                        required
+                      />
+                    </div>
+                    <div class="form__group">
+                      <label for="return-date" class="form__label"
+                        >Return Date</label
+                      >
+                      <input
+                        type="date"
+                        id="return-date"
+                        class="form__input"
+                        required
+                      />
+                    </div>
+                  </div>
+
+                  <div class="form__group">
+                    <label for="pickup-location" class="form__label"
+                      >Pickup Location</label
+                    >
+                    <div class="form__input-container">
+                      <!-- <i class="ri-map-pin-line form__input-icon"></i> -->
+                      <input
+                        type="text"
+                        id="pickup-location"
+                        class="form__input form__input--icon"
+                        placeholder="Enter pickup location"
+                        required
+                      />
+                    </div>
+                  </div>
+
+                  <div class="form__summary">
+                    <div class="form__summary-row">
+                      <span>Daily Rate:</span>
+                      <span id="daily-rate">$99</span>
+                    </div>
+                    <div class="form__summary-row">
+                      <span>Duration:</span>
+                      <span id="duration">1 day</span>
+                    </div>
+                    <div class="form__summary-row form__summary-total">
+                      <span>Total:</span>
+                      <span id="total-price">$99</span>
+                    </div>
+                  </div>
+
+                  <button
+                    type="submit"
+                    class="button button--primary button--large button--full"
+                  >
+                    <i class="ri-calendar-check-line"></i>
+                    Confirm Booking
+                  </button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/navigation.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/testimonials.js"></script>
+    <script src="js/cars.js"></script>
+    <script src="js/modal-new.js"></script>
+  </body>
+</html>
