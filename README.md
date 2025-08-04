@@ -340,17 +340,14 @@ RentX/
 - Test on multiple browsers and devices
 - Update documentation for new features
 
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 👨‍💻 Author
 
-**Your Name**
+**Rahul Maharjan**
 
-- GitHub: [@yourusername](https://github.com/yourusername)
-- LinkedIn: [Your Profile](https://linkedin.com/in/yourprofile)
-- Email: your.email@example.com
+- GitHub: [Rahul Maharjan](https://github.com/Rahul-Maharjan)
+- LinkedIn: [Profile](https://www.linkedin.com/in/rahul-maharjan-a57256207/)
+- Email: rahulmaharjan252@gmail.com
 
 ## 🙏 Acknowledgments
 
