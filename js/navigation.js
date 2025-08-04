@@ -124,20 +124,26 @@ class ModernNavigation {
   setupSmoothScrolling() {
     this.navLinks.forEach((link) => {
       link.addEventListener("click", (e) => {
-        e.preventDefault();
+        const targetHref = link.getAttribute("href");
 
-        const targetId = link.getAttribute("href");
-        const targetSection = document.querySelector(targetId);
+        // Check if it's an internal anchor link (starts with #)
+        if (targetHref.startsWith("#")) {
+          e.preventDefault();
 
-        if (targetSection) {
-          const headerHeight = this.header.offsetHeight;
-          const targetPosition = targetSection.offsetTop - headerHeight;
+          const targetSection = document.querySelector(targetHref);
 
-          window.scrollTo({
-            top: targetPosition,
-            behavior: "smooth",
-          });
+          if (targetSection) {
+            const headerHeight = this.header.offsetHeight;
+            const targetPosition = targetSection.offsetTop - headerHeight;
+
+            window.scrollTo({
+              top: targetPosition,
+              behavior: "smooth",
+            });
+          }
         }
+        // For external links (like index.html#section or support.html), let default behavior work
+        // No preventDefault() call, so the browser will navigate normally
       });
     });
   }
